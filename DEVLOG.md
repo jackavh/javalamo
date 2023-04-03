@@ -1,0 +1,3 @@
+# Saturday 4/1/2023
+
+Researched some of the different dataset options and found that Cornell's Movie Corpus is not a good fit for this project. The corpus is broken into multiple convoluded .json files that would be headache inducing to format into a good training set. After considering other options, I found the **WikiQACorpus** and decided this is a much better fit. This corpus contains question/answer pairs across a wide range of subjects, and is already formatted in some .tsv files which will be much easier to parse for the project. In addition, the data was generated to specifically used for NLP projects, so this dataset is the best fit.
