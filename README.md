@@ -6,12 +6,19 @@ ChatGPT has generated an enourmous amount of buzz, and stands to change the way 
 
 There are 7 weeks left until the presentation, organizing tasks by week gives:
 ### Week 1 
+
 ~~1. Select from [[Potential Datasets]] after researching options (I'm leaning towards Cornell's movie dialogue corpus)~~
-  Selected WikiQACorpus and the Wikipedia dump datasets
+
+	Selected WikiQACorpus and the Wikipedia dump datasets
+
 2. Study Deeplearning4J and the tensor datastructure
+
 ~~3. Research language model architectures and choose one that could be implemented within the timeframe~~
-  Committed to a basic Transformer architecture. 🤞🏻 I can make it happen!
+
+	Committed to a basic Transformer architecture. 🤞🏻 I can make it happen!
+
 4. Start brainstorming how that model could be implemented in Java (Flow charts, drawings, etc)
+
 ### Week 2
 5. Continue researching and developing an implementation plan
 6. Choose a tokenization technique
