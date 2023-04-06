@@ -5,3 +5,7 @@ Researched some of the different dataset options and found that Cornell's Movie 
 # Sunday 4/2/2023
 
 Got the dev environment ready, and set up Maven to manage Deeplearning4J and other dependencies as they pop up. In the background I am researching with a two pronged approach. On one end, I am reading and re-reading the Transformer paper, "Attention is All You Need," while trying my best to understand the super complex technical jargon. On the other end, I am watching a nice lecture series by Andrej Karpathy building from the ground up, very intuitive and simple. I am finding that the eureka moments are abundant with this method. Finally, I am reading through relevant pages of the Deeplearning4J documentation to get some understanding of future implementations.
+
+# Wednesday 4/5/2023
+
+Implemented some data processing. First, I found a source for using ALL of wikipedia as a training set. Using this data involved getting WikiExtractor, a python library working. Luckily I have a Macbook because it did not work on Windows. Then, implemented final_pass.py which does finishing touches on the output from WikiExtractor. This is where lemming will be implemented among other data cleaning operations. It also splits the output into multiple files, which will be good for memory because the Wikipedia dataset is 20Gb.
