@@ -9,7 +9,7 @@ There are 7 weeks left until the presentation, organizing tasks by week gives:
 
 ~~1. Select from [[Potential Datasets]] after researching options (I'm leaning towards Cornell's movie dialogue corpus)~~
 
-	Selected WikiQACorpus and the Wikipedia dump datasets
+	Selected WikiQACorpus, and the Wikipedia dump dataset for pre-training
 
 2. Study Deeplearning4J and the tensor datastructure
 
@@ -21,10 +21,16 @@ There are 7 weeks left until the presentation, organizing tasks by week gives:
 
 ### Week 2
 5. Continue researching and developing an implementation plan
-6. Choose a tokenization technique
-7. Choose and begin processing the dataset,
-	- Lowercasing, remove special characters, tokenization, stemming, lemmatization(maybe?)
-	- Make any augmentations to fit prompt-response use case
+~~6. Choose a tokenization technique~~
+	
+	Committed to Byte-Pair encoding.
+	
+~~7. Choose and begin processing the dataset,~~
+	
+	1. Removing article encodings
+	2. Removing special characters
+	3. Performing Byte-Pair encoding 
+	
 8. Split the dataset into training, validation, and testing sets
 ### Week 3 & 4
 9. Implement support classes that will build the language model (Loss algorithm, backpropogation, etc., depends on what model is chosen)
