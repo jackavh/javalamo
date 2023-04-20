@@ -9,3 +9,7 @@ Got the dev environment ready, and set up Maven to manage Deeplearning4J and oth
 # Wednesday 4/5/2023
 
 Implemented some data processing. First, I found a source for using ALL of wikipedia as a training set. Using this data involved getting WikiExtractor, a python library working. Luckily I have a Macbook because it did not work on Windows. Then, implemented final_pass.py which does finishing touches on the output from WikiExtractor. This is where lemming will be implemented among other data cleaning operations. It also splits the output into multiple files, which will be good for memory because the Wikipedia dataset is 20Gb.
+
+# Thursday 4/20/2023
+
+Wowzers, this ship is running behind schedule because I didn't work on it at all over spring break. Too much fun having was being had. Back to the groove, beginning implementation of a Byte Pair Encoder in Java today. It's about half done as it stands, but that's before optimization. If I want it to run on the full 133 Gb Wikipedia corpus it will need to be faaaast.
