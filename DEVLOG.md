@@ -13,3 +13,7 @@ Implemented some data processing. First, I found a source for using ALL of wikip
 # Thursday 4/20/2023
 
 Wowzers, this ship is running behind schedule because I didn't work on it at all over spring break. Too much fun having was being had. Back to the groove, beginning implementation of a Byte Pair Encoder in Java today. It's about half done as it stands, but that's before optimization. If I want it to run on the full 133 Gb Wikipedia corpus it will need to be faaaast.
+
+# Friday 4/21/2023
+
+Made progress with the BPE, and have developed a solid implentation plan for it. The BPE vocabulary will be trained on small subsets of the full wikipedia dataset, then stored as JSON for later use. BPE implementation will load the Vocabulary JSON and execute the merges on a byte stream reading from the wikipedia dataset. And will implement multithreading, should be trivial because of how the dataset is already split up.
