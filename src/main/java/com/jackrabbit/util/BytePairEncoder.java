@@ -1,4 +1,4 @@
-package com.jackrabbit;
+package com.jackrabbit.util;
 
 import java.util.ArrayList;
 import java.util.Hashtable;

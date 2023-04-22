@@ -1,4 +1,4 @@
-package com.jackrabbit;
+package com.jackrabbit.util;
 
 public class PreToken {
     private String text;

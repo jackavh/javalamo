@@ -1,3 +1,4 @@
-com\jackrabbit\PreToken.class
-com\jackrabbit\BytePairEncoder.class
+com\jackrabbit\util\PreToken.class
+com\jackrabbit\util\Vocabulary.class
 com\jackrabbit\App.class
+com\jackrabbit\util\BytePairEncoder.class

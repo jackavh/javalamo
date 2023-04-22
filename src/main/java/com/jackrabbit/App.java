@@ -70,11 +70,12 @@ public class App
 
         for (int i = 0; i < 10; i++) {
             String mfp = mostFrequentPair(splits);
-            System.out.println(mfp);
             vocab.add(mfp);
             splits = mergeStep(splits, mfp);
         }
 
+        System.out.println(vocab);
+        System.out.println(testString);
         System.out.println(splits);
     }
 }
