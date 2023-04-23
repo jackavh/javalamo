@@ -2,6 +2,9 @@ package com.jackrabbit;
 
 import java.util.List;
 import java.util.Map;
+
+import com.jackrabbit.util.Vocabulary;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 
@@ -36,7 +39,7 @@ public class App
 
     public static List<String> mergeStep (List<String> splits, String pair) {
         List<String> newSplits = new ArrayList<>();
-        for (int i = 0; i < splits.size() - 1; i++) {
+        for (int i = 0; i < splits.size(); i++) {
             sb.setLength(0);
             sb.append(splits.get(i)).append(splits.get(i+1));
             if (sb.toString().equals(pair)) {
@@ -60,21 +63,15 @@ public class App
             }
         }
 
-        List<String> vocab = new ArrayList<>();
-        vocab.add("<|endoftext|>");
-        vocab.add("<|UNKNOWN|>");
-        vocab.add("<|ENDL|>");
-        for (int i = 32; i <= 126; i++) {
-            vocab.add(Character.toString((char)i));
-        }
+        Vocabulary vocab = new Vocabulary();
 
-        for (int i = 0; i < 10; i++) {
+        //for (int i = 0; i < 2; i++) {
             String mfp = mostFrequentPair(splits);
             vocab.add(mfp);
             splits = mergeStep(splits, mfp);
-        }
+        //}
 
-        System.out.println(vocab);
+        System.out.println(vocab.mergeSet());
         System.out.println(testString);
         System.out.println(splits);
     }
