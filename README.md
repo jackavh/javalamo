@@ -1,8 +1,7 @@
 # javalamo - Java Language Model
 
-ChatGPT has generated an enourmous amount of buzz, and stands to change the way the world works. The technology underlying prompt-based text generators like ChatGPT are Language Models, which can predict future words from previous ones. For our final project, I will be implementing a rudimentary language based model in Java using the library Deeplearning4j. The final app will be commandline based, where the user enters a string as a prompt, and the model will generate a response. This project is a good fit for a final project because it extends upon skills we have been learning in class. First, getting the data into a format applicable to train the model will build upon the data projects we have worked on in class. In addition, this project will require implementation in OOD to execute upon a known language model architecture such as LSTMs, GRUs, or Transformer models. Finally, learning about the data structures and algorithms behind language models using what we have learned in class, such as Big O notation and Abstract Data Types will be a fascinating and rewarding exploration.
+## Project Timeline
 
-There are 7 weeks left until the presentation, organizing tasks by week gives:
 ### Week 1 
 
 ~~1. Select from [[Potential Datasets]] after researching options (I'm leaning towards Cornell's movie dialogue corpus)~~
