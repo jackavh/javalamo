@@ -12,7 +12,7 @@
 
 ~~3. Research language model architectures and choose one that could be implemented within the timeframe~~
 
-	Committed to a basic Transformer architecture. 🤞🏻 I can make it happen!
+	Committed to a basic n-Gram language model based on maximum likelihood estimation
 
 4. Start brainstorming how that model could be implemented in Java (Flow charts, drawings, etc)
 
@@ -34,7 +34,7 @@
 
 ### Week 3 & 4
 
-9. Implement support classes that will build the language model (Loss algorithm, backpropogation, etc., depends on what model is chosen)
+9. Implement support classes that will build the language model
 
 10. Always keep the greater architecture in mind
 
