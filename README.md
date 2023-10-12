@@ -22,13 +22,11 @@
 
 ~~6. Choose a tokenization technique~~
 	
-	Committed to Byte-Pair encoding.
-	
 ~~7. Choose and begin processing the dataset,~~
 	
 	1. Removing article encodings
 	2. Removing special characters
-	3. Performing Byte-Pair encoding 
+ 	3. Vectorize characters
 	
 8. Split the dataset into training, validation, and testing sets
 
@@ -46,7 +44,7 @@
 
 13. Make sure to avoid overfitting with validation
 
-14. Experiment with hyperparameters and different configurations for better performance (different loss functions, batch size, etc.)
+14. Experiment with hyperparameters and different configurations for better performance
 
 ### Week 6
 
